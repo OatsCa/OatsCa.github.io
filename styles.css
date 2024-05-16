@@ -1,0 +1,32 @@
+html, body{
+    height: 100%;
+    background-color: black;
+}
+
+.menu{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 50%;
+    box-shadow: 
+    rgba(255, 255, 255, 0.15) 0px 10px 20px, 
+    rgba(255, 255, 255, 0.12) 0px -10px 20px, 
+    rgba(255, 255, 255, 0.12) 0px 10px 20px, 
+    rgba(255, 255, 255, 0.10) 0px 10px 20px, 
+    rgba(255, 255, 255, 0.09) 0px -10px 20px;
+}
+
+.menu, h3{
+    color: white;
+    padding: 0px 7px 0px 7px;
+}
+
+.links{
+    display: contents;
+    justify-content: center;
+    align-content: center;
+    text-indent: 50px;
+}
+
