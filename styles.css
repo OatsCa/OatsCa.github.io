@@ -1,21 +1,32 @@
 html, body{
     height: 100%;
-    background-color: black;
+    background-color: rgb(29, 29, 29);
+}
+
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+.header{
+    display: flex;
+    padding: 0px;
+}
+
+.header img{
+    width: 20%;
+    border-radius: 25px;
 }
 
 .menu{
     display: flex;
     margin: auto;
-    width: 50%;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    /* width: 50%; */
     height: 50%;
-    box-shadow: 
-    rgba(255, 255, 255, 0.15) 0px 10px 20px, 
-    rgba(255, 255, 255, 0.12) 0px -10px 20px, 
-    rgba(255, 255, 255, 0.12) 0px 10px 20px, 
-    rgba(255, 255, 255, 0.10) 0px 10px 20px, 
-    rgba(255, 255, 255, 0.09) 0px -10px 20px;
 }
 
 .menu, h3{
@@ -27,6 +38,5 @@ html, body{
     display: contents;
     justify-content: center;
     align-content: center;
-    text-indent: 50px;
+    /* text-indent: 50px; */
 }
-
