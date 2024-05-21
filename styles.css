@@ -4,6 +4,7 @@ html, body{
 }
 
 *{
+    color: white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -12,30 +13,27 @@ a{
     color: lightgray;
 }
 
-.header h3, a{
-    display: flex;
-    padding: 0px;
-    margin: 0px;
-}
-
-.header img{
-    width: 25%;
-    border-radius: 25px;
-}
-
-.left{
-    width: 75%;
-}
-
 .menu{
     display: flex;
     margin: auto;
-    height: 50%;
+    width: 50%;
 }
 
 .menu, h3{
     color: white;
     padding: 0px 7px 0px 7px;
+}
+
+.header h3, a{
+    display: inline-block;
+    text-align: top;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header img{
+    width: 90px;
+    border-radius: 25px;
 }
 
 .links{
@@ -44,4 +42,16 @@ a{
     justify-content: center;
     align-content: center;
     text-indent: 50px;
+}
+
+.header-2{
+    text-align: center;
+}
+
+.header-2 img{
+    display: flex;
+    justify-content:baseline;
+    rotate: 90deg;
+    width: 30px;
+    height: 30px;
 }
